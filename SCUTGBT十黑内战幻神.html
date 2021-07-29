@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="de6ccb07a66e478baab635b83539823f" class="chart-container" style="width:1000px; height:800px;"></div>
+    <script>
+        var chart_de6ccb07a66e478baab635b83539823f = echarts.init(
+            document.getElementById('de6ccb07a66e478baab635b83539823f'), 'white', {renderer: 'canvas'});
+        var option_de6ccb07a66e478baab635b83539823f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "scatter",
+            "symbolSize": 10,
+            "data": [
+                [
+                    105.4,
+                    106.0,
+                    0.9943396226415094,
+                    "Miga",
+                    5
+                ],
+                [
+                    94.5,
+                    82.0,
+                    1.1524390243902438,
+                    "Takimoto Hifumi",
+                    6
+                ],
+                [
+                    66.25,
+                    77.0,
+                    0.8603896103896104,
+                    "\u58a8\u4e2d\u65e0\u7075",
+                    4
+                ],
+                [
+                    82.82,
+                    72.0,
+                    1.1502777777777777,
+                    "\u8bb2\u6587\u660e\u6811\u65b0\u98ce7566",
+                    11
+                ],
+                [
+                    74.0,
+                    79.0,
+                    0.9367088607594937,
+                    "Onsu",
+                    23
+                ],
+                [
+                    65.67,
+                    74.0,
+                    0.8874324324324324,
+                    "Stub",
+                    15
+                ],
+                [
+                    95.83,
+                    84.0,
+                    1.1408333333333334,
+                    "\u5395\u6240\u91cc\u8e72",
+                    23
+                ],
+                [
+                    88.91,
+                    83.0,
+                    1.0712048192771084,
+                    "Kalpaa",
+                    11
+                ],
+                [
+                    70.81,
+                    81.0,
+                    0.8741975308641976,
+                    "KeD6uKu-",
+                    21
+                ],
+                [
+                    74.77,
+                    70.0,
+                    1.068142857142857,
+                    "\u4f59\u8d1d\u8d1d",
+                    22
+                ],
+                [
+                    69.5,
+                    71.0,
+                    0.9788732394366197,
+                    "\u685c\u672c\u3055\u3044",
+                    8
+                ],
+                [
+                    65.89,
+                    65.0,
+                    1.0136923076923077,
+                    "Asagiri.MisTy",
+                    9
+                ],
+                [
+                    62.59,
+                    68.0,
+                    0.9204411764705883,
+                    "MrStr1ving",
+                    22
+                ],
+                [
+                    87.2,
+                    86.0,
+                    1.013953488372093,
+                    "TizianoAngus",
+                    5
+                ],
+                [
+                    68.74,
+                    73.0,
+                    0.9416438356164383,
+                    "\u9053\u4e0e\u540d",
+                    23
+                ],
+                [
+                    84.89,
+                    79.0,
+                    1.0745569620253164,
+                    "C\u4e00\u628a\u50cf\u8fc7\u5e74",
+                    9
+                ],
+                [
+                    73.67,
+                    74.0,
+                    0.9955405405405405,
+                    "T1kun",
+                    3
+                ],
+                [
+                    77.6,
+                    69.0,
+                    1.1246376811594203,
+                    "Curdy\u2014\u2014yellow",
+                    5
+                ],
+                [
+                    94.2,
+                    75.0,
+                    1.256,
+                    "Itadori yuji",
+                    5
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": function(params){return params.value[3];}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {return '\u3010'+params.value[3] +'\u3011<br>\u5929\u68af\u573a\u5747ADR: '+  params.value[1] +  '<br>\u5341\u9ed1\u573a\u6570: ' + params.value[4] + '<br>\u5341\u9ed1\u573a\u5747ADR: ' + params.value[0] + '<br> \u5185\u6218\u5e7b\u795e\u6307\u6570: '+ params.value[2]},
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "type": "value",
+            "name": "\u5341\u9ed1\u573a\u5747ADR",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 56.331,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                105.4,
+                94.5,
+                66.25,
+                82.82,
+                74.0,
+                65.67,
+                95.83,
+                88.91,
+                70.81,
+                74.77,
+                69.5,
+                65.89,
+                62.59,
+                87.2,
+                68.74,
+                84.89,
+                73.67,
+                77.6,
+                94.2
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "\u5929\u68af\u573a\u5747ADR",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 58.5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "SCUTGBT\u5341\u9ed1\u5185\u6218\u5e7b\u795e",
+            "left": "center",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0.8603896103896104,
+        "max": 1.256,
+        "text": [
+            "\u5185\u6218\u5e7b\u795e",
+            "\u5185\u6218\u6f14\u5458"
+        ],
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "dimension": 2,
+        "orient": "horizontal",
+        "left": "center",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 500,
+        "borderWidth": 0
+    },
+    "dataZoom": {
+        "show": true,
+        "type": "inside",
+        "realtime": true,
+        "start": 0,
+        "end": 100,
+        "orient": "horizontal",
+        "zoomLock": false,
+        "filterMode": "filter"
+    }
+};
+        chart_de6ccb07a66e478baab635b83539823f.setOption(option_de6ccb07a66e478baab635b83539823f);
+    </script>
+</body>
+</html>
